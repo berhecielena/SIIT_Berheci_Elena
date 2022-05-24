@@ -1,0 +1,93 @@
+* {
+  font-family: "Muli";
+}
+
+.main-box {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  color: rgb(84, 84, 84);
+}
+
+.first-product {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+.second-product {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+.third-product {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  border-radius: 10px;
+  margin: 20px 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: space-between;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+}
+
+p {
+  border: 10px;
+  margin: 10px 20px 10px 10px;
+  padding: 10px;
+}
+
+.cart {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  color: white;
+  background-color: black;
+}
+
+.view {
+  width: 100px;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+}
+
+@media only screen and (max-width: 850px) {
+  .main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

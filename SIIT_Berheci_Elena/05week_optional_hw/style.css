@@ -1,0 +1,82 @@
+* {
+  font-family: "Muli";
+}
+
+body {
+  padding: 20px;
+  margin: 20px;
+  border: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(170, 191, 175);
+}
+
+.big-main-box {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(66, 79, 69);
+  border-radius: 50%;
+  margin: 10px;
+
+  padding: 10px;
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+text {
+  color: white;
+}
+
+button {
+  border: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: rgb(66, 79, 69);
+}
+
+button:active {
+  background-color: rgb(66, 79, 69);
+  box-shadow: 10px 10px 15px rgb(77, 98, 82);
+  transform: translateY(4px);
+}
+
+span {
+  border: 10px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+input {
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+#result {
+  border: 5px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 20px;
+}

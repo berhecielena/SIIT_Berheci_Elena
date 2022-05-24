@@ -1,0 +1,40 @@
+.game-container {
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  
+}
+.player {
+  z-index: 10;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url(https://www.freeiconspng.com/thumbs/bee-png/best-free-bee-png-image-5.png);
+  background-size: cover;
+}
+
+.obstacol1 {
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzAUC8TUQgE_M8DJCeWaJ53YZJoVh0nS45A&usqp=CAU);
+  background-size: cover;
+  position: absolute;
+}
+.obstacol2 {
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzAUC8TUQgE_M8DJCeWaJ53YZJoVh0nS45A&usqp=CAU);
+  background-size: cover;
+  position: absolute;
+}
+.obstacol3 {
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzAUC8TUQgE_M8DJCeWaJ53YZJoVh0nS45A&usqp=CAU);
+  background-size: cover;
+  position: absolute;
+}
+
