@@ -72,3 +72,4 @@ function resetTimer() {
   minutesHtml.innerHTML = addZero(minutes);
   hoursHtml.innerHTML = addZero(hours);
 }
+ 
