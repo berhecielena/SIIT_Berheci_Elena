@@ -1,0 +1,101 @@
+
+.container{
+    display:flex;
+    
+}
+
+.text{
+    font-size: 35px;
+    padding-left:20 px;
+    color: white;
+   font-family: Helvetica, sans-serif ;
+   margin-top:300px;
+   margin-left:30px;
+   
+
+}
+.img-overlay-wrap{
+    position:relative;
+    display:inline-block;
+   
+    
+}
+.img-overlay-wrap img{
+    display:block;
+    max-width: 100%;
+    height: auto;
+}
+.img-overlay-wrap svg{
+    position:absolute;
+    min-width:60px;
+    width:800px;
+    height: 500px;
+    left:190px;
+    top:190px;
+    justify-content:center;
+    
+}
+.svg{
+   width:140px;
+    height: 50px;
+}
+.space{
+    margin-top:300px;
+}
+h2{
+ font-size: 30px;
+}
+
+.google button{
+    background-color: white;
+    border: none;
+    color:black;
+    font-size: 16px;
+    padding: 10px 70px;
+    border-radius: 30px;
+
+}
+.google button svg{
+    width: 30px;
+    height: 14px;
+    
+
+}
+.apple button{
+    background-color: white;
+    border: none;
+    color:black;
+    font-size: 16px;
+    padding: 10px 70px;
+    border-radius: 30px;
+
+}
+.apple button svg{
+    width: 35px;
+    height: 14px;
+}
+.phoneemail button{
+    background-color: white;
+    border: none;
+    color:black;
+    font-size: 16px;
+    padding: 10px 55px;
+    border-radius: 30px;
+}
+.terms{
+    font-size:13px;
+    word-wrap:break-word;
+}
+.bluetext{
+    color:#1c99ec;
+
+}
+.graytext{
+    color: gray;
+}
+footer{
+    color:gray;
+    font-size:13px;
+    font-family: Helvetica, sans-serif ;
+    text-align:center;
+}
